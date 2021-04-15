@@ -1,6 +1,6 @@
 ///if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
   ///horizontal showcase
-/*
+
 if (window.innerWidth > 900) { // code for large screens
   $('.showcase').on('mousewheel DOMMouseScroll', function(event){
 
@@ -19,7 +19,7 @@ if (window.innerWidth > 900) { // code for large screens
 
      });
    }
-*/
+
 ///}
   ///smooth scroll
 
@@ -47,3 +47,20 @@ if (window.innerWidth > 900) { // code for large screens
       } // End if
     });
   });
+
+//caret & nav appear
+  $(document).scroll(function () {
+      var y = $(this).scrollTop();
+      if (y > 600) {
+          $('nav').fadeIn();
+      } else {
+          $('nav').fadeOut();
+      }
+
+      var y = $(this).scrollTop();
+      if (y > 60) {
+          $('.caret').fadeTo( "slow", 0 );
+      }
+  });
+
+  $('.caret').delay(1500).fadeTo( "slow", 1);
