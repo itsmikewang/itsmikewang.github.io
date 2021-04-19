@@ -1,0 +1,26 @@
+
+.projectContent{
+      padding: 64px 0;
+}
+.projectContent div, .projectContent img{
+  margin:16px 0;
+}
+.projectIntro img{
+  max-width: 100%;
+}
+.projectInsight{
+  padding: 40px 0;
+}
+.sub3, .sub7{
+  margin:0 0 24px 0 !important;
+  width: 100%;
+}
+.projectProcess img{
+  max-width: 100%;
+}
+.projectNav{
+  padding: 0;
+}
+.projectNav button{
+  margin: 8px;
+}

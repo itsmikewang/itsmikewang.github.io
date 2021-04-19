@@ -31,7 +31,7 @@ h3{
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 40px;
 }
 /*body*/
@@ -60,7 +60,6 @@ P2{
   font-weight: 300;
   font-size: 12px;
   line-height: 20px;
-  display: block;
 }
 /*small bold*/
 P3{
@@ -77,6 +76,10 @@ P4{
   font-weight: 300;
   font-size: 8px;
   line-height: 16px;
+}
+hr{
+  border:1px solid #dedede;
+  border-top: none;
 }
 .fineP{
   font-size: 2px;
@@ -99,7 +102,7 @@ a:visited {
 
 a:hover {
   text-decoration:underline;
-  color: #454545;
+  color: #165377;
 }
 
 a:active {

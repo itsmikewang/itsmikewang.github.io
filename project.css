@@ -1,0 +1,74 @@
+h1, h2, h3{
+  text-align: center;
+}
+h3{
+  margin-bottom: 80px;
+}
+p, p1, p2{
+  max-width: 652px;
+  margin-left: auto;
+  margin-right: auto;
+}
+p0{
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #454545;
+  display: block;
+  margin: -16px 0 40px 0;
+}
+.bBreak{
+  border-bottom: 1px solid #dedede;
+}
+.container{
+padding-top: 64px;
+}
+.projectInsight{
+  padding: 64px;
+  text-align: center
+}
+.projectInsight>img{
+  margin-bottom: 16px;
+}
+.projectIntro{
+  text-align: center;
+  padding-bottom: 80px;
+}
+.projectIntro>img{
+  max-height: 284px;
+  margin: 48px 0;
+}
+.projectContent{
+  padding: 80px 0;
+  text-align: center;
+}
+.projectContent div{
+  text-align: left;
+}
+
+p2{
+  color:#767676;
+}
+.projectContent div,.projectContent img{
+  vertical-align: text-top;
+  margin: 0 96px 64px 0;
+  max-width: 100%;
+}
+.projectProcess img{
+  max-width: 656px;
+}
+.projectNav{
+  text-align: center;
+  padding: 0 0 64px 0;
+}
+.sub3{
+  display: inline-block;
+  width: 272px;
+}
+.sub7{
+  display: inline-block;
+  width: 656px;
+}
+.stick{
+  position: sticky;
+}
