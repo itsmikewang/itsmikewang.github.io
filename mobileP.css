@@ -1,4 +1,9 @@
-
+h3{
+  margin-bottom: 64px;
+}
+p, p1, p2, h3, h4{
+  text-align: left !important;
+}
 .projectContent{
       padding: 64px 0;
 }
@@ -9,7 +14,7 @@
   max-width: 100%;
 }
 .projectInsight{
-  padding: 40px 0;
+  padding: 64px 0;
 }
 .sub3, .sub7{
   margin:0 0 24px 0 !important;
