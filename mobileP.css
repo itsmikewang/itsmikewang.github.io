@@ -1,11 +1,8 @@
 h3{
   margin-bottom: 64px;
 }
-p, p1, p2, h3, h4{
-  text-align: left !important;
-}
 .projectContent{
-      padding: 64px 0;
+  padding: 64px 0;
 }
 .projectContent div, .projectContent img{
   margin:16px 0;
@@ -16,7 +13,7 @@ p, p1, p2, h3, h4{
 .projectInsight{
   padding: 64px 0;
 }
-.sub3, .sub7{
+.sub1,.sub2,.sub3,.sub4,.sub5,.sub6,.sub7,.sub8,.sub9,.sub10,.sub11,.sub12{
   margin:0 0 24px 0 !important;
   width: 100%;
 }
