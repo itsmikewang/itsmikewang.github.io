@@ -7,6 +7,9 @@ h3{
 .projectContent div, .projectContent img{
   margin:16px 0;
 }
+.projectIntro{
+  padding: 0 0 32px 0;
+}
 .projectIntro img{
   max-width: 100%;
 }
