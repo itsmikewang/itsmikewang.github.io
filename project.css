@@ -21,13 +21,14 @@ h4{
   border-bottom: 1px solid #dedede;
   padding: 80px 0;
 }
-.center{text-align: center !important;}
+.center, .center p{text-align: center !important;}
 .container{
   padding-top: 0;
   text-align: center;
 }
-.projectContent p,.projectContent p3,.projectContent p2{
+.projectContent p,.projectContent p3,.projectContent p2,.projectContent p1{
   color: #767676;
+  text-align: left;
 }
 /*.projectContent p,.projectContent p1{
   text-align: left;
@@ -36,10 +37,13 @@ h4{
   padding: 80px 240px;
 }
 .projectInsight{
-  padding: 64px;
+  padding: 64px 160px;
 }
 .projectInsight>img{
   margin-bottom: 8px;
+}
+.projectNav{
+  padding: 32px 0;
 }
 .roundCorner img{
   border-radius: 24px;
@@ -64,7 +68,7 @@ h4{
 .sub7{
   width: 656px;
 }
-.fullSpan{
+.fullSpan, .fullSpan p1{
   text-align: center;
 }
 
@@ -117,16 +121,5 @@ p2{
   margin: 0 96px 40px 0;
   max-width: 100%;
 }
-.projectProcess img{
-  max-width: 656px;
-}
-.projectNav{
-  text-align: center;
-  padding: 0 0 64px 0;
-}
 
-
-.stick{
-  position: sticky;
-}
 */

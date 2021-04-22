@@ -185,7 +185,7 @@ nav>a{
   width: 1136px;
   margin-left: auto;
   margin-right: auto;
-  padding: 136px 0 40px 0;
+  padding: 136px 0 0 0;
 }
 #introCon{
   width: 752px;
@@ -262,7 +262,7 @@ nav>a{
 
 /*footer*/
 .footer{
-  margin-top: 40px;
+  margin-top: 0;
   border-top: 1px solid #DEDEDE;
   width: 1136px;
   color:#767676;
