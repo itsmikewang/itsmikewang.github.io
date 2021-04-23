@@ -1,6 +1,7 @@
 h1, h2, h3, h4, p0, p, p1, p2, p3{
   text-align: center;
   margin: 8px 0;
+  letter-spacing: .004em;
 }
 p4{margin: 4px 0;}
 img, video{
@@ -15,7 +16,6 @@ h3{
 }
 h4{
   margin: 0;
-  font-weight: 300;
 }
 .bBreak{
   border-bottom: 1px solid #dedede;
@@ -27,7 +27,6 @@ h4{
   text-align: center;
 }
 .projectContent p,.projectContent p3,.projectContent p2,.projectContent p1{
-  color: #767676;
   text-align: left;
 }
 /*.projectContent p,.projectContent p1{
@@ -55,6 +54,16 @@ h4{
   text-align: left;
   padding: 8px;
 }
+.sub1 div,.sub2 div,.sub3 div,.sub4 div,.sub5 div,.sub6 div,.sub7 div,.sub8 div,.sub9 div,.sub10 div,.sub11 div,.sub12 div{
+padding:0;
+margin: 0;
+}
+.sub1 img,.sub2 img,.sub3 img,.sub4 img,.sub5 img,.sub6 img,.sub7 img,.sub8 img,.sub9 img,.sub10 img,.sub11 img,.sub12 img{
+max-height: 80vh;
+}
+.sub4 h2{
+  text-align: left;
+}
 .sub3{
   width: 272px;
 }
@@ -62,11 +71,20 @@ h4{
   width: 463px;
   margin-right: 112px;
 }
+.sub5{
+  width: 464px;
+}
 .sub6{
-  width: 656px;
+  width: 560px;
 }
 .sub7{
   width: 656px;
+}
+.sub8{
+  width: 862px;
+}
+.spacer{
+  margin-right: 96px !important;
 }
 .fullSpan, .fullSpan p1{
   text-align: center;

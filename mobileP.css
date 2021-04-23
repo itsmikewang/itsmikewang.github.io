@@ -12,10 +12,14 @@ h3{
 }
 .projectIntro img{
   max-width: 100%;
+  margin-top: 32px;
 }
 .projectInsight{
   padding: 64px 0;
 }
+/*.projectInsight p4{
+  margin-top: 24px;
+}*/
 .sub1,.sub2,.sub3,.sub4,.sub5,.sub6,.sub7,.sub8,.sub9,.sub10,.sub11,.sub12{
   margin:0 0 24px 0 !important;
   width: 100%;
