@@ -64,3 +64,18 @@ if (window.innerWidth > 900) { // code for large screens
   });
 
   $('.caret').delay(1500).fadeTo( "slow", 1);
+
+
+//nav scroll down hide
+/*
+window.onscroll = function(e) {
+    var scrollY = window.pageYOffset || document.documentElement.scrollTop;
+    var header = document.querySelector('nav');
+
+    scrollY <= this.lastScroll
+      ? header.style.top = '0'
+      : header.style.top = '-50';
+
+    this.lastScroll = scrollY ;
+}
+*/

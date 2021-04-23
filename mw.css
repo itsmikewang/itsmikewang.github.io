@@ -199,7 +199,9 @@ nav>a{
 #workCon{
   margin-top: 160px;
 }
-
+.shadow{
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+}
 /*shelf*/
 .experience{
   padding:0;
@@ -214,7 +216,7 @@ nav>a{
 }
 .exptitle img{height:24px;display: inline;margin-right:8px;vertical-align: middle;}
 .expdescription{
-  max-width: 600px;
+  max-width: 720px;
   margin: 16px 0px 24px 0px;
   color: #767676;
   font-size: 12px;
