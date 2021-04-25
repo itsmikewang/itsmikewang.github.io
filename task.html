@@ -1,4 +1,5 @@
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,8 @@
   <!--<link rel="apple-touch-icon" href=".png"/>-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" type="text/css"href="mw.css">
-  <link rel="stylesheet" type="text/css"href="project.css">
+  <link rel="stylesheet" type="text/css" href="mw.css">
+  <link rel="stylesheet" type="text/css" href="project.css">
   <link media="only screen and (max-device-width: 800px)" href="mobile.css" type="text/css" rel="stylesheet" />
   <link media="only screen and (max-device-width: 800px)" href="mobileP.css" type="text/css" rel="stylesheet" />
   <meta name="description" content="Portfolio of Mike Wang - Product Designer" />
@@ -23,9 +24,15 @@
     <div id='navwrap'>
       <a href="index.html"><img src="assets/logo.svg" alt="Mike Wang Logo"></a>
       <div class="navlinkWrap">
-        <a href="index.html"><div class=navlink>Work</div></a>
-        <a href="#cAnchor"><div class=navlink>Contact</div></a>
-        <a target="_blank" href="https://www.linkedin.com/in/itsmikewang"><div class=navlink><img height=18px src="assets/linkedin.svg" alt="linked in profile"></div></a>
+        <a href="index.html">
+          <div class=navlink>Work</div>
+        </a>
+        <a href="#cAnchor">
+          <div class=navlink>Contact</div>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/itsmikewang">
+          <div class=navlink><img height=18px src="assets/linkedin.svg" alt="linked in profile"></div>
+        </a>
       </div>
     </div>
   </nav>
@@ -38,7 +45,7 @@
       <!--<p4><br /><strong>role: </strong>All qualitative discovery research, UX, UI and usability testings.
       <br />Partnered with product, engineering and data science to scope project, groom sprints, understand results, and revise designs.</p4>-->
       <div class="sub7">
-        <img src="assets/better/task/taskIntro.png" alt="screenshot of workflow builder &amp; task list">
+        <img class="shadow taskgif" src="assets/better/task/taskIntro.png" alt="screenshot of workflow builder &amp; task list">
       </div>
     </div>
 
@@ -56,7 +63,8 @@
       </div>
       <div class="sub3">
         <p2>The PM, EM, and myself shadowed dozens of mortgage professionals in every stage of the loan process to understand their work flow, concerns, interactions, process and pain points.
-        <br /><br>Here are some patterns we noticed:</p2>
+          <br /><br>Here are some patterns we noticed:
+        </p2>
       </div>
       <div class="sub7">
         <p2>
@@ -76,7 +84,7 @@
     <div class="projectInsight bBreak">
       <img src="assets/bulb.svg" alt="lightbulb icon">
       <p1>If mortgage work can be broken down to small, contained tasks and be shown with context - then expensive work
-that used to require specialized professionals can be done by a non-specialized person at greater efficiency with less errors.</p1>
+        that used to require specialized professionals can be done by a non-specialized person at greater efficiency with less errors.</p1>
     </div>
 
     <div class="projectContent bBreak">
@@ -86,12 +94,21 @@ that used to require specialized professionals can be done by a non-specialized 
 
     <div class="projectContent bBreak projectProcess">
       <h2>Exploring solutions</h2>
-      <div class="sub7"><img src="assets/better/task/taskProcess.png" alt="workflow &amp; tasklist process image"></div>
-      <div class="sub3">
-        <p2>We took what we learned and began iterating on the flow and interactions needed to taskify mortgage work-
-        <br /><br />We kicked off the project with cross functions leads, created, consolidated, & reconciled ideas. We reacted and refined through a many rounds of designs &amp; testing with the help of figma prototypes and A/B test release.
-        <br /><br / />After a few rounds of prototype testing and arriving at a solution that gets most of the jobs done, I took the design and flushed out edge cases, error handling, and checked for redundancies.</p2>
+
+      <div>
+        <div class="sub6 center">
+          <p>We kicked off the project with cross functions leads, created, consolidated, & reconciled ideas guided by user testing with prototypes.<br /><br /></p>
+          <img src="assets/better/task/taskProcess.png" alt="workflow &amp; tasklist process image">
+        </div>
       </div>
+
+      <div class="sub10 center">
+        <div class="sub4"><img src="assets/better/task/TaskCarddetails.png" alt="tasklist card designs"></div>
+        <div class="sub3 left">
+          <p>After testing successfully on a general design direction, we started working out the different states & flows to address all of the likely scenarios in our MVP use case.</p>
+        </div>
+      </div>
+
 
     </div>
 
@@ -100,8 +117,12 @@ that used to require specialized professionals can be done by a non-specialized 
 
       <div class="sub11">
         <div class="sub7 spacer">
-          <img class='shadow' id='taskgif1' src="assets/testTask.gif" alt="">
-          <style>#taskgif1{border-radius: 10px;}</style>
+          <img class='shadow taskgif' src="assets/better/task/Task12.gif" alt="">
+          <style>
+            .taskgif {
+              border-radius: 10px;
+            }
+          </style>
         </div>
         <div class="sub3 ">
           <p1>Workflow Builder lets mortgage managers create logic based work flows and assign them to the apprepriate team once loan files meet a specific set of conditions.<br /><br /></p1>
@@ -111,12 +132,39 @@ that used to require specialized professionals can be done by a non-specialized 
 
       <div class="sub11">
         <div class="sub7 spacer">
-          <img src="assets/better/task/workflow2.png" alt="">
+          <img class="shadow taskgif" src="assets/better/task/task3.gif" alt="">
         </div>
         <div class="sub3 ">
-          <p1>Once loan files meet the defined conditions, specific tasks are assigned to the appropriate employee on a timeline and cadence determined by the manager.<br /><br /></p1>
+          <p1>Specific tasks are assigned to the appropriate employee on a timeline and cadence determined by the manager.<br /><br /></p1>
         </div>
+      </div>
 
+      <div class="sub11">
+        <div class="sub7 spacer">
+          <img class="shadow taskgif" src="assets/better/task/Priority.png" alt=""><br /><br />
+          <img class="shadow taskgif" src="assets/better/task/Review.png" alt="">
+        </div>
+        <div class="sub3 ">
+          <p1>The resulting task will queue in a list as they match the defined trigger unless managers set priorities for specific traits.<br /><br />The workflow is then reviewed and published.<br /><br /></p1>
+        </div>
+      </div>
+
+      <h3>Tasklist</h3>
+
+      <div class="sub11">
+        <div class="sub7 spacer">
+          <img class="shadow taskgif" src="assets/better/task/tasklist.gif" alt="">
+        </div>
+        <div class="sub3 ">
+          <p1>Teams can claim, unclaim, and see see claimer of work to let multiple members work on the same batch of work if needed. Once a task is done, the next relevant task is automatically triggered and delegated to keep the loan file
+            moving.<br /><br /></p1>
+        </div>
+      </div>
+
+      <div class="sub6 center">
+        <p1><br /><br />Workflow Builder and Tasklist allowed managers to track and continuously optimize their workflow strategies.
+          <br /><br />Early MVP results showed complex task completion time improve an average of 6.2&#37; &#40;From 57 to 53.5 hours including time in queue&#41;.
+        </p1>
       </div>
 
 
@@ -131,22 +179,29 @@ that used to require specialized professionals can be done by a non-specialized 
   </div>
 
   <div class="footer">
-    <span id='cAnchor'><p1>Say Hello!</p></span>
+    <span id='cAnchor'>
+      <p1>Say Hello!</p>
+    </span>
 
-      <!--contact form-->
-      <form target="_blank" id="my-form" action="https://formspree.io/xeqljrny" method="POST">
-        <input type="text" name="name" placeholder="Your Name" />
-        <input type="email" name="email" placeholder="Your Email" />
-        <textarea name="message" placeholder="Include a message"></textarea>
-        <button id="my-form-button">Send</button>
-        <p id="my-form-status"></p>
-      </form>
-      <!--contact form-->
+    <!--contact form-->
+    <form target="_blank" id="my-form" action="https://formspree.io/xeqljrny" method="POST">
+      <input type="text" name="name" placeholder="Your Name" />
+      <input type="email" name="email" placeholder="Your Email" />
+      <textarea name="message" placeholder="Include a message"></textarea>
+      <button id="my-form-button">Send</button>
+      <p id="my-form-status"></p>
+    </form>
+    <!--contact form-->
 
     <p4><span class='fineP'>I'm not saying I am Batman, but Bruce Wayne and I have never been in the same room at the same time.</span>
-    <br />Made with ♥ in NYC</p4><br /><br />
-    <a target="_blank" href="mailto:itsmikewang@gmail.com"><div class="fIcons"><img src="assets/fEmail.svg" alt=""></div></a>
-    <a target="_blank" href="https://www.linkedin.com/in/itsmikewang"><div class="fIcons"><img src="assets/fLinked.svg" alt=""></div></a>
+      <br />Made with ♥ in NYC
+    </p4><br /><br />
+    <a target="_blank" href="mailto:itsmikewang@gmail.com">
+      <div class="fIcons"><img src="assets/fEmail.svg" alt=""></div>
+    </a>
+    <a target="_blank" href="https://www.linkedin.com/in/itsmikewang">
+      <div class="fIcons"><img src="assets/fLinked.svg" alt=""></div>
+    </a>
 
   </div>
 
@@ -155,4 +210,5 @@ that used to require specialized professionals can be done by a non-specialized 
   <script type='text/javascript' src='/js/jquery.mousewheel.min.js'></script>
   <script src="mw.js"></script>
 </body>
+
 </html>

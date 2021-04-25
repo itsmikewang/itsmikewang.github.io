@@ -222,8 +222,11 @@ nav>a{
   font-size: 12px;
   line-height: 20px;
 }
+.gray{
+  color:#767676;
+}
 .showcase{
-  width: 100%;
+  max-width: 100%;
   overflow-x: scroll;
   white-space: nowrap;
   display: inline-block;
