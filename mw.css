@@ -36,6 +36,7 @@ h3{
   font-weight: 700;
   font-size: 24px;
   line-height: 40px;
+  display: inline-block;
 }
 h4{
   font-family: 'Montserrat', sans-serif;
@@ -209,12 +210,12 @@ nav>a{
   overflow-x: hidden;
 }
 .exptitle{
-  display: inline-block;
+  display: block;
   font-weight: 600;
   font-size: 16px;
   line-height: 24px;
 }
-.exptitle img{height:24px;display: inline;margin-right:8px;vertical-align: middle;}
+.exptitle img{height:20px;display: inline;margin-right:8px; vertical-align:baseline;}
 .expdescription{
   max-width: 720px;
   margin: 16px 0px 24px 0px;
