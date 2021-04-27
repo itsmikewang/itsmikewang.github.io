@@ -3,11 +3,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Ziprecruiter Discover &amp; Explore</title>
+  <title>Discover &amp; Explore experiences</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
   <!--<link rel="apple-touch-icon" href=".png"/>-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css"href="mw.css">
   <link rel="stylesheet" type="text/css"href="project.css">
   <link media="only screen and (max-device-width: 800px)" href="mobile.css" type="text/css" rel="stylesheet" />
@@ -33,19 +31,22 @@
   <div class='container'>
 
     <div class="projectIntro bBreak">
-      <h1>Discover &amp; explore</h1>
-      <p>Experiences and features to help job seekers find relevant opportunities at key points in their journey.</p>
+      <h1>Discover & Explore</h1>
+      <p>Nudging job seekers to discover &amp; explore the jobs they want but don't know about yet.</p>
       <!--<h4>Coaching job seekers towards their dream job</h4>-->
       <!--<p4><br /><strong>role: </strong>All qualitative discovery research, UX, UI and usability testings.
       <br />Partnered with product, engineering and data science to scope project, groom sprints, understand results, and revise designs.</p4>-->
       <div class="sub7 center">
-        <img src="assets/zip/discoverThumb.png" alt="ziprecruiter job card design">
+        <img class='shadow' src="assets/zip/discover/emptyModal.png" alt="An empty search modal">
       </div>
+      <style>
+        .projectIntro img{max-height: 400px; border-radius: 16px;}
+      </style>
     </div>
 
     <div class="projectInsight bBreak">
       <img src="assets/bulb.svg" alt="lightbulb icon">
-      <p1>Job seeking and job working are separate skills.<br /><br>High quality job seekers don't always appear that way to hiring managers because of poorly constructed resumes and profiles.</p1>
+      <p1>More than 50% of the daily searches on Zip are ran without a keyword.</p1>
     </div>
 
     <div class="projectContent bBreak">
@@ -53,17 +54,28 @@
       <!--<p>A basic home purchase loan process looks something like this</p>
       <img src="assets/better/task/PurchaseBasic.svg" alt="flow chart of mortgage process">-->
       <div class="sub7 center">
-        <img src="assets/zip/advisor/matching.png" alt="">
+        <img src="assets/zip/discover/interviewee.svg" alt="">
       </div>
-      <div class="sub7 center">
-        <p1>The millions of job applications we've facilitated showed some patterns:</p1>
-        <p>The way hiring managers write job descriptions is generally different from the way candidates applying to those same jobs write about their experience. Perfectly qualified candidates often do not appear to be a good match. Educating both sides means employers discover more high quality candidates and job seekers are able to better present and improve themselves.</p>
+      <div class="sub7">
+        <p>We previously treated empty searches as mistakes, and sent users to a generalized experience where they saw a jobs from a manually curated list of industries. This experience had poor conversion, and we hypothesized that the volumn is too big to just be a mistake. So we recruited real job seekers to learn more. <br /><br /></p>
+        <p1>We talked to a bunch of recent job seekers and noticed some common threads:<br /><br /></p1>
+        <p2>
+
+          <i class="fa fa-wind">&nbsp;</i><strong>Career Fluid</strong>- Many entry level workers are not fixated on a specific career yet. A restaurant wait staff is sometime just as happy find a retail role next and vice versa.
+
+          <br /><br /><i class="fa fa-binoculars">&nbsp;</i><strong>Trouble seeing</strong>- Many job seekers felt like there must be more job titles they should be exploring but did not know of a easy way to discover them.
+
+          <br /><br /><i class="fa fa-flag-checkered">&nbsp;</i><strong>3x drop-off</strong>- users who blank search are many times likely to finish their session without applying.
+
+          <br /><br /><i class="fa fa-bug">&nbsp;</i><strong>Feature, not bug</strong>- Job boards generally treat empty searches as mistakes, but many job seekers saw them as a tool to explore opportunities.
+
+        </p2>
       </div>
     </div>
 
     <div class="projectInsight bBreak">
       <img src="assets/bulb.svg" alt="lightbulb icon">
-      <p1>Employers and job seekers often don't realize they are looking for each other because they are speaking different languages. If we can leverage ML to make suggestions and nudge the two side towards each other, we can activate lots of missed great matches.</p1>
+      <p1>Job seekers often aren't aware of most of the job titles they should be searching for. Empty searches are often the results of job seekers exploring their options. </p1>
     </div>
 
     <!--<div class="projectContent bBreak">
@@ -73,49 +85,67 @@
 
     <div class="projectContent bBreak projectProcess">
       <h2>Exploring solutions</h2>
-      <div class="sub7"><img src="assets/better/task/taskProcess.png" alt="workflow &amp; tasklist process image"></div>
+      <div class="sub7"><img src="assets/zip/discover/discoverTests.png" alt="workflow &amp; tasklist process image"></div>
       <div class="sub3">
-        <p2>a;kldsjfkalsjelskjfael;</p2>
+        <p>We ran a bunch of A/B tests over the course of 2 months to see if nudges and suggestions at key points in the experience would increase application &amp; match rate.</p>
       </div>
 
     </div>
 
-    <div class="projectContent">
-      <h2>Results</h2>
+    <div class="projectContent bBreak">
 
-      <div class="sub3 roundCorner center">
+      <div class="sub4">
+        <h2>Results</h2>
+        <p><br />Career advisor compares profile information to common details in job postings to help high quality candidates can improve how they are presented while less qualified ones can see what they should work on.<br /><br /></p>
+      </div>
+      <div class="sub3 roundCorner">
         <img src="assets/zip/advisor/careerpath.gif" alt="">
       </div>
-      <div class="sub3">
-        <p>Career advisor compares information from a user's profile to details in job posting for their industry so high quality candidates can improve how they are presented while less qualified ones can see what they should work on.</p>
+
+      <div class="sub9">
+        <div class="sub3 spacer">
+          <p1>Common career paths, easy pivots, &amp; what the next level looks for &mdash;<br /><br /></p1>
+        </div>
+        <img src="assets/zip/advisor/careerExp.png" alt="">
       </div>
 
-      <div class="sub7 center">
-        <p1>We exposed possible future job titles based on the current job title, what it takes to get there, and tangent fields that that job seeker may qualify for.<br /><br /></p1>
-      </div>
-      <div class="fullSpan center">
-        <img src="assets/zip/advisor/salaryexpand.png" alt="">
-      </div>
-
-      <div class="sub7 center">
-        <p1>We exposed both common and rare sought after skills so job seekers can highlight what they already have and choose to learn the ones they don't.<br /><br /></p1>
-      </div>
-      <div class="fullSpan center">
-        <img src="assets/zip/advisor/skillsexpand.png" alt="">
+      <div class="sub9">
+        <div class="sub3 spacer">
+          <p1>Salary range, where you fit, and what top paying jobs generally want &mdash;<br /><br /></p1>
+        </div>
+        <div class="sub4">
+          <img src="assets/zip/advisor/salaryexpand.png" alt="">
+        </div>
       </div>
 
-      <div class="sub7 center">
-        <p1>We exposed salary and market size discrepencies to help job seekers understand their options while increasing supply for high demand markets.<br /><br /></p1>
-      </div>
-      <div class="fullSpan center">
-        <img src="assets/zip/advisor/locationexpand.png" alt="">
+      <div class="sub9">
+        <div class="sub3 spacer">
+          <p1>Common and rare skills found amongst peers and job listings in your field &mdash;<br /><br /></p1>
+        </div>
+        <div class="sub4">
+          <img src="assets/zip/advisor/skillsexpand.png" alt="">
+        </div>
       </div>
 
-      <div class="sub7 center">
-        <p1>Other features &mdash;<br /><br /></p1>
+      <div class="sub9">
+        <div class="sub3 spacer">
+          <p1>Top cities for salary and job openings to help users understand their options &amp; increase supply for high demand markets. &mdash;<br /><br /></p1>
+        </div>
+        <div class="sub4">
+          <img src="assets/zip/advisor/locationexpand.png" alt="">
+        </div>
       </div>
-      <div class="fullSpan center">
-        <img src="assets/zip/advisor/advisorother.png" alt="">
+
+      <div class="sub9">
+        <div class="sub3 spacer">
+          <p1>Other features &mdash;</p1>
+            <p>
+              Resume keywords, certifications, education levels &amp; ATS friendly resume builder to help job seekers gauge how they stack up against the competition.<br /><br />
+            </p>
+        </div>
+        <div class="sub4">
+          <img src="assets/zip/advisor/advisorother.png" alt="">
+        </div>
       </div>
 
     </div>
