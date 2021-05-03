@@ -11,9 +11,9 @@ img, video{
 h1{
   margin: 0 0 8px 0;
 }
-h3{
-  margin-top: 64px;
-}
+/*h3{
+  margin-top: 40px;
+}*/
 h4{
   margin: 0;
 }
@@ -50,7 +50,7 @@ h4{
 }
 .sub1,.sub2,.sub3,.sub4,.sub5,.sub6,.sub7,.sub8,.sub9,.sub10,.sub11,.sub12{
   display: inline-block;
-  margin: 64px 8px 0 8px;
+  margin: 32px 8px;
   vertical-align: top;
   text-align: left;
   padding: 8px;
