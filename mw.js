@@ -6,7 +6,7 @@ if (window.innerWidth > 900) { // code for large screens
 
          var delta = Math.max(-1, Math.min(1, (event.originalEvent.wheelDelta || -event.originalEvent.detail)));
 
-         $(this).scrollLeft( $(this).scrollLeft() - ( delta * 120 ) );
+         $(this).scrollLeft( $(this).scrollLeft() - ( delta * 15 ) );
          //event.preventDefault();
 
      });

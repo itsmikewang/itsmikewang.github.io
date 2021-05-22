@@ -267,6 +267,15 @@ nav>a{
 .pDes{
   padding: 0 16px;
 }
+.wip{
+  text-align: center !important;
+  background-color: #fff;
+  border: 2px dashed #f8f8f8;
+}
+.wip:hover{
+  box-shadow: none;
+  background-color: #F8F8F8;
+}
 /*shelf*/
 
 /*footer*/
