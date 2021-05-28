@@ -1,4 +1,5 @@
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,8 +7,8 @@
   <title>Design System</title>
   <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
   <!--<link rel="apple-touch-icon" href=".png"/>-->
-  <link rel="stylesheet" type="text/css"href="mw.css">
-  <link rel="stylesheet" type="text/css"href="project.css">
+  <link rel="stylesheet" type="text/css" href="mw.css">
+  <link rel="stylesheet" type="text/css" href="project.css">
   <link media="only screen and (max-device-width: 800px)" href="mobile.css" type="text/css" rel="stylesheet" />
   <link media="only screen and (max-device-width: 800px)" href="mobileP.css" type="text/css" rel="stylesheet" />
   <meta name="description" content="Portfolio of Mike Wang - Product Designer" />
@@ -17,20 +18,23 @@
 
   <style>
     /*.projectIntro img{width: 100vw;}*/
-    .projectIntro{
+    .projectIntro {
       height: 680px;
-      background-image:url(assets/meetup/designsystem/systemCoverAlt.png);
+      background-image: url(assets/meetup/designsystem/systemCoverAlt.png);
       background-repeat: no-repeat;
       background-size: contain;
       background-position: bottom;
     }
+
     @media only screen and (max-width: 800px) {
-        .projectIntro {
+      .projectIntro {
         height: 400px;
       }
     }
 
-    .dsend img{height: 280px;}
+    .dsend img {
+      height: 280px;
+    }
   </style>
 
 </head>
@@ -40,9 +44,15 @@
     <div id='navwrap'>
       <a href="index.html"><img src="assets/logo.svg" alt="Mike Wang Logo"></a>
       <div class="navlinkWrap">
-        <a href="index.html"><div class=navlink>Work</div></a>
-        <a href="#cAnchor"><div class=navlink>Contact</div></a>
-        <a target="_blank" href="https://www.linkedin.com/in/itsmikewang"><div class=navlink><img height=18px src="assets/linkedin.svg" alt="linked in profile"></div></a>
+        <a href="index.html">
+          <div class=navlink>Work</div>
+        </a>
+        <a href="#cAnchor">
+          <div class=navlink>Contact</div>
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/itsmikewang">
+          <div class=navlink><img height=18px src="assets/linkedin.svg" alt="linked in profile"></div>
+        </a>
       </div>
     </div>
   </nav>
@@ -52,30 +62,24 @@
     <div class="projectIntro">
       <h1>Meetup Design System</h1>
       <p>Driving UI consistency and quality across the company &plus; ensuring parity between design &amp; code.</p>
-      <!--<h4>Coaching job seekers towards their dream job</h4>-->
-      <!--<p4><br /><strong>role: </strong>All qualitative discovery research, UX, UI and usability testings.
-      <br />Partnered with product, engineering and data science to scope project, groom sprints, understand results, and revise designs.</p4>-->
-      <!--<div class="sub7 center">
-        <img src="assets/meetup/designsystem/systemCover.png" alt="design system preview">
-      </div>-->
+
 
     </div>
 
-    <!--<div class="projectInsight bBreak">
-      <img src="assets/bulb.svg" alt="lightbulb icon">
-      <p1>Meetup had 2 previous attempts at creating a design system - both were far from complete due to lots of restructuring and change in management. Without a common component library to work out of, the designers were </p1>
-    </div>-->
+
 
     <div class="projectContent bBreak">
       <br /><br />
       <h2>Context</h2>
 
-      <div class="sub7"><p>
-        Meetup has had 2 previous attempts at creating a design system - both were far from complete due to lots of restructuring and change in management in recent times. By the beginning of 2021, the entire design team had turned over, leaving no legacy knowledge holder about why design decisions were the way they were.
-        <br /><br />
-        Without a common component library, the designers were left to maintain consistency across the product by doing adhoc audits. Lots of mutation were created.
+      <div class="sub7">
+        <p>
+          Meetup has had 2 previous attempts at creating a design system - both were far from complete due to lots of restructuring and change in management in recent times. By the beginning of 2021, the entire design team had turned over, leaving no
+          legacy knowledge holder about why design decisions were the way they were.
+          <br /><br />
+          Without a common component library, the designers were left to maintain consistency across the product by doing adhoc audits. Lots of mutation were created.
         </p>
-        </div>
+      </div>
 
     </div>
 
@@ -83,15 +87,16 @@
       <h2>Audit</h2>
       <div class="sub7">
         <p>
-        Our figma components were often slightly different from what we had in production. Additionally, designers would sometimes make adhoc &#39;improvements&#39; as they created &amp; componentizes elements. This started creating a dangerous situation where we had multiple conflicting sources of truth, so it was time to take a step back and start the right way.
-        <br /><br />
-        I led our team of designers and began auditing our product to see what was already used, where they were used, and documented the mutations that existed.
-        <br /><br /><br />
-        <img src="assets/meetup/designsystem/iconAudit.png" alt="icon audit">
-        <br /><br /><br />
-        As was expected with an 18 year old product - we found many version of the product, with many fragments of previous versions of design systems &amp; visual identities.
-        <br /><br /><br />
-        <img src="assets/meetup/designsystem/colorAudit.png" alt="color audit">
+          Our figma components were often slightly different from what we had in production. Additionally, designers would sometimes make adhoc &#39;improvements&#39; as they created &amp; componentizes elements. This started creating a dangerous
+          situation where we had multiple conflicting sources of truth, so it was time to take a step back and start the right way.
+          <br /><br />
+          I led our team of designers and began auditing our product to see what was already used, where they were used, and documented the mutations that existed.
+          <br /><br /><br />
+          <img src="assets/meetup/designsystem/iconAudit.png" alt="icon audit">
+          <br /><br /><br />
+          As was expected with an 18 year old product - we found many version of the product, with many fragments of previous versions of design systems &amp; visual identities.
+          <br /><br /><br />
+          <img src="assets/meetup/designsystem/colorAudit.png" alt="color audit">
         </p>
       </div>
     </div>
@@ -100,13 +105,15 @@
       <h2>Structure</h2>
       <div class="sub7">
         <p>
-        Before jumping into Figma and building, we wanted to make sure that our system was set up to be as easy as possible to maintain and work out of.
-        <br /><br>
-        I set up a 2 part component library structure with a &#34;DS foundations&#34; library containing all of the atomic elements shared across the platforms in addition to a supplemental platform level library for each of the 4 platforms we supported &#40;Web, iOS, Android, Email&#41;
-        <br /><br />
-        This setup allowed us to maintain shared elements like color, typography, spacing, icons, etc. in one place &amp; without redundancy. This also separated the most important style &amp; components into a different file from the platform level library, allowing us to have a more restrictive permission on the Foundation library so accidents that had wider impacts were less likely.
-        <br /><br />
-        We enabled Foundations plus one supplemental platform library by default for each team space in Figma to keep decisions like &#34;which library should I use?&#34; out of the designer&#39;s workflow.
+          Before jumping into Figma and building, we wanted to make sure that our system was set up to be as easy as possible to maintain and work out of.
+          <br /><br>
+          I set up a 2 part component library structure with a &#34;DS foundations&#34; library containing all of the atomic elements shared across the platforms in addition to a supplemental platform level library for each of the 4 platforms we
+          supported &#40;Web, iOS, Android, Email&#41;
+          <br /><br />
+          This setup allowed us to maintain shared elements like color, typography, spacing, icons, etc. in one place &amp; without redundancy. This also separated the most important style &amp; components into a different file from the platform
+          level library, allowing us to have a more restrictive permission on the Foundation library so accidents that had wider impacts were less likely.
+          <br /><br />
+          We enabled Foundations plus one supplemental platform library by default for each team space in Figma to keep decisions like &#34;which library should I use?&#34; out of the designer&#39;s workflow.
         </p>
       </div>
       <div class="sub10 center">
@@ -123,11 +130,13 @@
       <h2>Managing scope</h2>
       <div class="sub7">
         <p>
-          Working on an established product means there are already lots of components in production. Some still work while others no longer do - sometimes for a hard reason like not passing accessibility, and other times for soft reasons like looking dated.
+          Working on an established product means there are already lots of components in production. Some still work while others no longer do - sometimes for a hard reason like not passing accessibility, and other times for soft reasons like
+          looking dated.
           <br /><br />
           We leaned into adjusting and expanding instead of doing complete rehauls. We focused our time on making the most impact, getting the system up and running quickly, while avoiding oversights that would break existing experiences.
           <br /><br />
-          Instead of changing the colors, we took our core colors and expanded our palette to make sure we have accessibility passing options. Instead of creating icons from scratch, I established a keyline, kept the symbols used, and consolidated them into a consistent style that later additions followed.
+          Instead of changing the colors, we took our core colors and expanded our palette to make sure we have accessibility passing options. Instead of creating icons from scratch, I established a keyline, kept the symbols used, and consolidated
+          them into a consistent style that later additions followed.
       </div>
 
 
@@ -149,7 +158,7 @@
       </div>
 
       <div class="fullSpan">
-          <img src="assets/meetup/designsystem/inputs.png" alt=""><br /><br />
+        <img src="assets/meetup/designsystem/inputs.png" alt=""><br /><br />
       </div>
 
     </div>
@@ -158,23 +167,28 @@
       <h2>Designing for designers</h2>
       <div class="sub7">
         <p>
-        I set up time to watch and talk to each designer to learn about how they like to work to make sure we created components in a way that is most condusive to their working style. 3 things jumped out:</p>
+          I set up time to watch and talk to each designer to learn about how they like to work to make sure we created components in a way that is most condusive to their working style. 3 things jumped out:</p>
         <br /><br />
         <p1>1. The order of operation for finding &amp; setting up components in design files should mimic the designer's thought process</p1>
         <p>
-        For example, when our designers need an banner, the thought process goes something like:
-        <br /><br />I need a banner > this banner will announce a danger message > it should be persistent at the top of the page, there is no link out or action > but the user should be able to dismiss the banner > I need to attach an illustration.<br /><br /></p>
+          For example, when our designers need an banner, the thought process goes something like:
+          <br /><br />I need a banner > this banner will announce a danger message > it should be persistent at the top of the page, there is no link out or action > but the user should be able to dismiss the banner > I need to attach an
+          illustration.<br /><br />
+        </p>
 
         <p1>2. We should ensure feature/variant discoverability</p1>
         <p>
-        As the team grew along with the size of component library, it became less practical to announce every addition/adjustment to every single designer every time. To ensure that designers are aware of the options available to them, we needed to make sure they are always easily discoverable.<br /><br /></p>
+          As the team grew along with the size of component library, it became less practical to announce every addition/adjustment to every single designer every time. To ensure that designers are aware of the options available to them, we needed to
+          make sure they are always easily discoverable.<br /><br /></p>
 
         <p1>3. Overcomplicated components often lead to detaching, under usage and low awareness, and ultimately make mutations more likely.<br /><br /></p1>
         <p>
-        We needed to make sure that the components we created were intuitive to use and visually self explanatory instead of relying on writing and tutorials to brute force adoption.<br /><br />
-        <br /><br />
-        With these priorities in mind, we set up our components to show variant option in the same sequence as the most common order of operation, exposed all of the available parts by default, and put in extra work to set up variants as boolean toggles to help with both discovery AND efficiency of use.
-        <br /><br /><br /></p>
+          We needed to make sure that the components we created were intuitive to use and visually self explanatory instead of relying on writing and tutorials to brute force adoption.<br /><br />
+          <br /><br />
+          With these priorities in mind, we set up our components to show variant option in the same sequence as the most common order of operation, exposed all of the available parts by default, and put in extra work to set up variants as boolean
+          toggles to help with both discovery AND efficiency of use.
+          <br /><br /><br />
+        </p>
         <img src="assets/meetup/designsystem/bannerToggle.gif" alt="variant toggles" />
       </div>
       <div class="fullSpan center">
@@ -183,8 +197,8 @@
 
       <div class="sub7">
         <p>
-        <br /><br />
-        Elements with uniform behaviors were built as interactive components to drive interaction consistency while saving designer from redundant work during prototyping stage.
+          <br /><br />
+          Elements with uniform behaviors were built as interactive components to drive interaction consistency while saving designer from redundant work during prototyping stage.
         </p>
       </div>
 
@@ -199,10 +213,11 @@
       <h2>Building for engineers</h2>
       <div class="sub7">
         <p>
-        With every new item we added, we used the elements to recreate existing page to ensure pixel perfection. Through this process, we teased out and fixed the short comings of our components and made sure that any deviation from code was intentional and purposeful.
+          With every new item we added, we used the elements to recreate existing page to ensure pixel perfection. Through this process, we teased out and fixed the short comings of our components and made sure that any deviation from code was
+          intentional and purposeful.
 
-        To ensure that design files always reflect the product that would actually be built, we held weekly meetings with designers and engineers and kept our Storybook repository up to date.
-        <br /><br / />
+          To ensure that design files always reflect the product that would actually be built, we held weekly meetings with designers and engineers and kept our Storybook repository up to date.
+          <br /><br / />
         </p>
       </div>
       <div class="fullSpan center">
@@ -221,14 +236,16 @@
       <h2>Ongoing effort</h2>
       <div class="sub7">
         <p>
-          Design system work is not the kind of work that has an end. As we asymptotically approached completing introduction of new components for each platform, we set up feedback loops to ensure the design system continued to meet our needs and evolved with our context.
+          Design system work is not the kind of work that has an end. As we asymptotically approached completing introduction of new components for each platform, we set up feedback loops to ensure the design system continued to meet our needs and
+          evolved with our context.
           <br /><br />
-          The design of the components started with elements being created &amp; recreated in Figma. As they moved into code, we adjusted &amp; labeled the figma files to accurately reflect the constraints, states, and changes that happened in production while continung to optimize them for new UX scenarios we discovered.
+          The design of the components started with elements being created &amp; recreated in Figma. As they moved into code, we adjusted &amp; labeled the figma files to accurately reflect the constraints, states, and changes that happened in
+          production while continung to optimize them for new UX scenarios we discovered.
           <br /><br />
           I set up a regular cadence of design system meetings with the designers &amp; engineers to discuss what is working and what isn't to make sure problems and improvements were addressed.
           <br /><br />
           The work continues with an emphasis on accessibility &#40;focused on contrast and screenreader&#41; as well as strategies to unify components from web, iOS, android, &amp; email when possible.
-        <br /><br />
+          <br /><br />
         </p>
       </div>
       <div class="sub8 center dsend">
@@ -249,22 +266,29 @@
   </div>
 
   <div class="footer">
-    <span id='cAnchor'><p1>Say Hello!</p></span>
+    <span id='cAnchor'>
+      <p1>Say Hello!</p>
+    </span>
 
-      <!--contact form-->
-      <form target="_blank" id="my-form" action="https://formspree.io/xeqljrny" method="POST">
-        <input type="text" name="name" placeholder="Your Name" />
-        <input type="email" name="email" placeholder="Your Email" />
-        <textarea name="message" placeholder="Include a message"></textarea>
-        <button id="my-form-button">Send</button>
-        <p id="my-form-status"></p>
-      </form>
-      <!--contact form-->
+    <!--contact form-->
+    <form target="_blank" id="my-form" action="https://formspree.io/xeqljrny" method="POST">
+      <input type="text" name="name" placeholder="Your Name" />
+      <input type="email" name="email" placeholder="Your Email" />
+      <textarea name="message" placeholder="Include a message"></textarea>
+      <button id="my-form-button">Send</button>
+      <p id="my-form-status"></p>
+    </form>
+    <!--contact form-->
 
     <p4><span class='fineP'>I'm not saying I am Batman, but Bruce Wayne and I have never been in the same room at the same time.</span>
-    <br />Made with ♥ in NYC</p4><br /><br />
-    <a target="_blank" href="mailto:itsmikewang@gmail.com"><div class="fIcons"><img src="assets/fEmail.svg" alt=""></div></a>
-    <a target="_blank" href="https://www.linkedin.com/in/itsmikewang"><div class="fIcons"><img src="assets/fLinked.svg" alt=""></div></a>
+      <br />Made with ♥ in NYC
+    </p4><br /><br />
+    <a target="_blank" href="mailto:itsmikewang@gmail.com">
+      <div class="fIcons"><img src="assets/fEmail.svg" alt=""></div>
+    </a>
+    <a target="_blank" href="https://www.linkedin.com/in/itsmikewang">
+      <div class="fIcons"><img src="assets/fLinked.svg" alt=""></div>
+    </a>
 
   </div>
 
@@ -272,5 +296,18 @@
   <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
   <script type='text/javascript' src='/js/jquery.mousewheel.min.js'></script>
   <script src="mw.js"></script>
+  <!-- Default Statcounter code for github portfolio
+  http://itsmikewang.github.io -->
+  <script type="text/javascript">
+    var sc_project = 12538387;
+    var sc_invisible = 1;
+    var sc_security = "9e1b3b37";
+  </script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript>
+    <div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img class="statcounter" src="https://c.statcounter.com/12538387/0/9e1b3b37/1/" alt="Web Analytics"></a></div>
+  </noscript>
+  <!-- End of Statcounter Code -->
 </body>
+
 </html>
