@@ -39,13 +39,13 @@
 
     <div class="projectIntro bBreak">
       <h1>Apps Refresh</h1>
-      <p>Driving app re-engagement by exposing relevant and interesting events to Meetuppers</p>
+      <p>Optimizing key flows in the Meetup apps to activate new and existing users and increase event attendance.</p>
 
       <div class="sub7 center">
-        <img class="shadow" src="assets/meetup/apps/emptyWidget.png" alt="meetup widget empty state">
+        <img class="shadow" src="assets/meetup/apps/appLaunch.gif" alt="meetup app launch screen">
       </div>
       <style>
-        .projectIntro img {
+        .projectIntro img , .phone img{
           max-height: 600px;
           border-radius: 24px;
         }
@@ -53,10 +53,99 @@
     </div>
 
     <div class="projectInsight bBreak">
-      <p1>WIP <br />&bull;&bull;<br />Coming next week. Please check out some of my other projects for now</p1>
+      <img src="assets/bulb.svg" alt="lightbulb icon">
+      <p1>RSVPs are the most important user action on Meetup. More RSVPers lead to higher quality and quantity of organizers that in turn drives more RSVPs.</p1>
+    </div>
+
+    <div class="projectContent bBreak">
+      <h2>Gathering insights</h2>
+      <div class="sub7 center">
+        <img src="assets/meetup/apps/regVSact.png" alt="">
+      </div>
+      <div class="sub7">
+        <p>At the start of 2021, the number of events on Meetup began to recover from the quarantine. However, as most metrics like downloads and signups grew, the most important metric of RSVP stayed stagnant on our apps.<br /><br />
+        <p1>I dug into the issue with the help of our data team and found 3 obvious problem areas to tackle:<br /><br /></p1>
+        <p2>
+
+
+
+          <i class="fa fa-sign-out-alt">&nbsp;</i><strong>No return</strong>- Our app user frequently returned as they actively attended events. However, those that went more than 2 week without an RSVP were 5x more likely to never open the app again. Almost all organizers became one after attending 3 events as a member.
+
+          <br /><br /><i class="fa fa-user-clock">&nbsp;</i><strong>No backup</strong>- Users with no RSVP AND no group joins were almost 2x more likely to stop using the app compared to their counterparts who joined at least 1 group. Additionally, our event search tool was prominently featured on the bottom bar while our group search was separate, inline on 1 page, and saw less than 20&percnt; of the usage of event search.
+
+          <br /><br /><i class="fa fa-route">&nbsp;</i><strong>Long leaky onboarding</strong>- While registration growth outpaced RSVPs, it still left a lot of room for improvement. Only 14.3&percnt; of apps users downloaded the apps, registered, AND RSVPd to an event on their first day.
+
+        </p2>
+      </div>
+    </div>
+
+    <div class="projectInsight bBreak">
+      <img src="assets/bulb.svg" alt="lightbulb icon">
+      <p1>Our data suggest that we can drive continuous engagement with our app by nudging users to take action early and keeping events on Meetup top of mind.</p1>
     </div>
 
 
+    <div class="projectContent bBreak projectProcess center">
+      <h2>Onboarding flow</h2>
+      <div class="sub8">
+        <p>I partnered with my PM to nail down our scope and focus on what we hypothesize to be the highest impact areas.</p>
+      </div>
+      <div class="sub12"><img src="assets/meetup/apps/oldOnboard.png" alt="old onboarding flow"></div>
+        <div class="sub6 left">
+          <p1>To encourage more meaningful actions during the onboarding flow, we -</p1>
+          <p>
+            <br /> &bull; started making search suggestions
+            <br /> &bull; redesigned a more compact group screen to help users discover more groups
+            <br /> &bull; added an event join step to encourage RSVPs
+            <br /> &bull; added group and event preview cards to make sure users have all of the info they need to commit
+          </p>
+        </div>
+        <div class="fullSpan phone center"><img class="shadow" src="assets/meetup/apps/onBoardGroupEvent.gif" alt="onboarding from interests step"></div>
+        <div class="sub6">
+          <p><br /><br />Finally, we decided to flip the order of our onboarding flow to get the user through registration first. After onboarding is complete, we sent users to the Explore page filled with recommendations related to their interests instead of an empty home page.</p>
+        </div>
+        <div class="fullSpan center"><img src="assets/meetup/apps/newOnboard.png" alt="old onboarding flow"></div>
+    </div>
+
+    <div class="projectContent bBreak projectProcess center">
+      <h2>Group Search</h2>
+      <div class="sub8">
+        <p>Our existing apps had a barebone group search without suggestion, locations, and result sorting.</p>
+      </div>
+      <div class="sub6 center"><img src="assets/meetup/apps/groupSearchOld.png" alt="old group search flow"></div>
+        <div class="sub6 left">
+          <p1>To ensure that users who did not immediately find a event to join stay engaged, we worked on making groups more discoverable by-</p1>
+          <p>
+            <br /> &bull; letting users sort and filter their results
+            <br /> &bull; letting users search in different locations
+            <br /> &bull; making interest and behavior based suggestions while users search
+          </p>
+        </div>
+        <div class="fullSpan center"><img src="assets/meetup/apps/groupSearch.png" alt="group search"></div>
+    </div>
+
+    <div class="projectContent bBreak projectProcess center">
+      <h2>Widgets</h2>
+      <div class="sub8">
+        <p>We continued to optimize our in-app experience but still needed to address the problem of low rate of returning to app for users who did not have RSVPs.
+        <br /><br />We created and began testing widgets to give users a way to passively engage and re-engage with the app by showing relevant upcoming events based on their group joins and past activities.</p>
+      </div>
+      <div class="sub12"><img src="assets/meetup/apps/widgetsAll.png" alt="widgets"></div>
+    </div>
+
+
+
+    <div class="projectContent bBreak center">
+      <h2>Results</h2>
+
+      <div class="sub6 center">
+        <p>The new onboarding flow increased 12 hour group joins by 7.26&percnt; and RSVPs by 17.72&percnt;
+        <br /><br />Group search redesign is currently in A/B testing and seeing &sim;7&percnt; increase in directly-attributed RSVPs at the time of this writing.
+        <br /><br />Widget is has just entered testing.
+        </p>
+      </div>
+
+    </div>
 
     <div class="projectNav">
       <a href="designsystem.html"><button type="button" name="Previous"><i class="fa fa-arrow-left">&nbsp;&nbsp;</i>Last Project</button></a>
